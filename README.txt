@@ -1,4 +1,4 @@
-Hospital Management System
+project i did back in 2023- Hospital Management System
 
 A GUI-based Hospital Management System built with Python (Tkinter) and MySQL to handle patient registration, appointments, and services efficiently.
 
