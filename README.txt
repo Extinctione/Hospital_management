@@ -1,21 +1,41 @@
-MIT License
+Hospital Management System
 
-Copyright (c) 2023 -core
+A GUI-based Hospital Management System built with Python (Tkinter) and MySQL to handle patient registration, appointments, and services efficiently.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+ Features
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+-  Patient Registration  
+  Register patients using AADHAAR ID with details like name, age, gender, phone number, and blood group.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- Doctor Appointments  
+  Book appointments with randomly assigned doctors across various departments.
+
+- Doctor List  
+  View available doctors, their departments, and assigned room numbers.
+
+- Hospital Services  
+  Check availability of essential services (e.g., X-ray, MRI, CT Scan) and their room locations.
+
+- Data Modification  
+  Update patient details based on AADHAAR number.
+
+-  Search Patient Records  
+  Fetch and display existing patient data using their AADHAAR number.
+
+ Tech Stack
+
+- Frontend: Python `Tkinter` (GUI)
+- Backend: MySQL database
+- Libraries Used:  
+  - `mysql-connector-python`  
+  - `tkinter` (built-in)
+
+  Setup Instructions
+
+1. Install Required Python Package:
+   bash
+   pip install mysql-connector-python
+
+Make sure your MySQL service is running. 
+con = sqlcon.connect(host="localhost", user="root", password="your_password")
+
