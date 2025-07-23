@@ -1,0 +1,16 @@
+# Hospital Management System - Required packages
+
+# Core dependency for MySQL connection
+mysql-connector-python>=8.0.33
+
+# Optional GUI automation/testing (not required, but useful for Tkinter apps)
+pyautogui>=0.9.54
+
+# For logging/debugging (optional but good practice in larger apps)
+loguru>=0.7.0
+
+# For better date handling if you expand appointment logic (optional)
+python-dateutil>=2.8.2
+
+# Optional: To package the app later as a .exe
+pyinstaller>=6.3.0
